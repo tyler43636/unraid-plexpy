@@ -7,6 +7,6 @@ set -e
 apt-get -q update
 apt-get install -qy git-core supervisor
 cd /opt
-git clone https://github.com/drzoidberg33/plexpy.git
+git clone https://github.com/JonnyWong16/plexpy.git
 apt-get clean
 rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
