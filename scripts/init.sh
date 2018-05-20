@@ -38,8 +38,8 @@ else
 fi
 
 # set permissions inside container
-chown -R "${PUID}":"${PGID}" /opt/plexpy
-chmod -R 775 /opt/plexpy
+chown -R "${PUID}":"${PGID}" /opt/Tautulli
+chmod -R 775 /opt/Tautulli
 
 echo "[info] Starting Supervisor..."
 
